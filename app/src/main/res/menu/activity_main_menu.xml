@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subititulo_uno"
+            android:title="@string/material_design_title">
+            <menu>
+                <item
+                    android:id="@+id/contraint_layout"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/constraint_layout" />
+                <item
+                    android:id="@+id/nestedscrollview"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/nestedscrollview" />
+                <item
+                    android:id="@+id/collapsing"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/collapsingtoolbarlayout" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subititulo_dos"
+            android:title="@string/multimedia">
+            <menu>
+                <item
+                    android:id="@+id/Audio"
+                    android:icon="@drawable/ic_audio"
+                    android:title="@string/audio" />
+                <item
+                    android:id="@+id/Video"
+                    android:icon="@drawable/ic_video_"
+                    android:title="@string/video" />
+
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subititulo_tres"
+            android:title="@string/recyclerviewItem">
+            <menu>
+                <item
+                    android:id="@+id/Rv"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/recyclerviewItem" />
+
+            </menu>
+        </item>
+    </group>
+
+
+
+
+</menu>
